@@ -1,0 +1,88 @@
+header {
+    max-width: 1100px;
+    margin: 60px auto;
+}
+
+header h1 {
+    margin: 0 0 10px 100px;
+}
+
+#lidt-om-mig {
+    display: grid;
+    grid-template-columns: 1fr 400px;
+    column-gap: 60px;
+    align-items: start;
+    margin-left: 100px;
+}
+
+#lidt-om-mig h2 {
+    grid-column: 1;
+    grid-row: 1;
+    margin-top: 0;
+}
+
+#lidt-om-mig p {
+    grid-column: 1;
+    grid-row: 2;
+    margin-top: 0;
+}
+
+#lidt-om-mig img {
+    grid-column: 2;
+    grid-row: 1 / 3;
+    width: 300px;
+    height: 350px;
+    object-fit: cover;
+}
+body{ background-color: #f6faf3}
+main {
+    max-width: 1100px;
+    margin: 0 auto;
+    background-color: #5d9fba;
+    border-radius: 10px;
+}
+
+footer {
+    max-width: 900px;
+    margin: 0 auto;
+}
+footer .linkedin-logo{
+    width:40px;
+    height:40px;
+}
+footer .git{
+    width:40px;
+    height:40px;
+}
+
+@media  ( max-width: 600px){
+
+header{ max-width: 100%;
+    margin: 30px 20px;  }
+
+Header h1{
+    margin-left: 0;
+}
+main {
+     max-width: 100%;
+     margin: 0 20px;
+}
+
+#lidt-om-mig {
+     display: block;
+     margin-left: 0;
+     padding: 20px;
+}
+
+#lidt-om-mig img {
+     width: 100%;
+     height: auto;
+     margin-top: 20px;
+}
+
+footer {
+     max-width: 100%;
+     margin: 20px;
+}
+}
+
