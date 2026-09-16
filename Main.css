@@ -13,6 +13,7 @@ header h1 {
     column-gap: 60px;
     align-items: start;
     margin-left: 100px;
+
 }
 
 #lidt-om-mig h2 {
@@ -34,11 +35,11 @@ header h1 {
     height: 350px;
     object-fit: cover;
 }
-body{ background-color: #f6faf3}
+body{ background-color: #FFFFFF}
 main {
     max-width: 1100px;
     margin: 0 auto;
-    background-color: #5d9fba;
+    background-color: #d8e0e9;
     border-radius: 10px;
 }
 
